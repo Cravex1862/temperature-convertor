@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Temperature Conversion</h1>
+        <input type="text" id="input" placeholder="Enter Degrees">
+        <label for="cars">Choose a unit</label>
+        <select id="cars" name="cars">
+            <option value="farenheit">Farenheit</option>
+            <option value="celsius">Celsius</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+        <label for="convertor">Choose Unit to convert to:</label>
+        <select id="convertor" name="convertor">
+            <option value="farenheit">Farenheit</option>
+            <option value="celsius">Celsius</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <h2 id="Result" >Result</h2>
+    </div>
+</body>
+</html>
